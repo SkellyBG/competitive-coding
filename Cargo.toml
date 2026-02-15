@@ -1,3 +1,3 @@
 [workspace]
 resolver = "3"
-members = ["cses","leetcode","project-euler"]
+members = ["aoc-2025","cses","leetcode","project-euler"]
