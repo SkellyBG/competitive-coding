@@ -127,8 +127,7 @@ impl Problem for Problem3 {
         let num: i64 = 600851475143;
         let largest_factor = (1..num.isqrt())
             .filter(|factor| num % factor == 0)
-            .filter(|factor| is_prime(*factor))
-            .next_back()
+            .rfind(|factor| is_prime(*factor))
             .unwrap_or(1);
 
         largest_factor.to_string()
