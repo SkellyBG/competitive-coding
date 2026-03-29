@@ -1,1 +1,4 @@
+mod p3884_first_matching_character_from_both_ends;
+mod p3885_design_event_manager;
+mod p3886_sum_of_sortable_integers;
 mod p67_add_binary;
