@@ -1,0 +1,3 @@
+[workspace]
+resolver = "3"
+members = ["aoc-2025","cses","leetcode","project-euler", "codeforce"]
